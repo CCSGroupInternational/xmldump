@@ -1,0 +1,7 @@
+__title__ = "xmldump"
+__version__ = "0.0.1"
+__summary__ = "XML file dump"
+__uri__ = "https://github.com/Openpipe/dinterpol"
+__author__ = "João Pinto"
+__email__ = "lamego.pinto@gmail.com"
+__license__ = "Apache-2"

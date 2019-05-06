@@ -15,6 +15,12 @@ This python package provides the following features:
 - The command line utility:
     * _dump_ - vertical dump of a xml file structure/content
 
+# Install
+```bash
+pip install https://github.com/CCSGroupInternational/xmldump
+```
+
+# Usage
 Usage example:
 ```bash
 xmldump file.xml

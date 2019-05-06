@@ -1,5 +1,5 @@
 import argparse
-from .parse import xml_parse
+from .parser import XMLParserIter
 
 
 def arguments_parser():
@@ -13,7 +13,8 @@ def arguments_parser():
 
 def main():
     args = arguments_parser()
-    xml_parse(args.filename)
+    parser = XMLParserIter(args.filename)
+    parser.parse(export=True)
 
 
 if __name__ == "__main__":
